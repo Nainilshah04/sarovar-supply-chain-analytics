@@ -1,0 +1,11 @@
+Vendor_Name,OnTime_Pct,Defect_Rate,Avg_Lead_Time,Total_Volume,Composite_Score,Performance_Flag,Rank
+Quick Steel Industries,100.0,1.51,11.45,12311,99.55,GREEN,1
+Premium Steel Co,100.0,0.39,12.8,18751,94.56,GREEN,2
+Steel Suppliers India,90.9,0.75,12.73,10446,90.18,GREEN,3
+Reliable Metals Ltd,85.3,2.07,12.56,19566,87.65,GREEN,4
+Mumbai Metal Works,88.6,1.7,13.66,22699,85.07,GREEN,5
+Quality Issues Pvt,77.8,4.52,14.14,21163,76.93,GREEN,6
+Slow Logistics Ltd,69.0,2.09,15.14,16662,69.32,YELLOW,7
+Defective Materials Co,71.4,4.76,15.89,16750,66.76,YELLOW,8
+Delayed Suppliers Pvt,54.5,2.18,16.27,16152,57.59,YELLOW,9
+Late Delivery Inc,51.6,2.38,16.52,17171,55.09,YELLOW,10
