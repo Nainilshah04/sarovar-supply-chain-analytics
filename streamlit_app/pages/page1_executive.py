@@ -160,7 +160,7 @@ def show_page():
                         cornerradius=4),
             text=[f'₹{v/100000:.1f}L' for v in top5['Revenue']],
             textposition='outside',
-            textfont=dict(color=TEXT_DARK, size=12, family='Inter'),
+            textfont=dict(color=TEXT_DARK, size=8, family='Inter'),
             hovertemplate='<b>%{y}</b><br>₹%{x:,.0f}<extra></extra>'
         ))
         fig3.update_layout(
@@ -168,7 +168,7 @@ def show_page():
             font=dict(family='Inter', color=TEXT_AXIS, size=12),
             xaxis=dict(showgrid=False, showticklabels=False),
             yaxis=dict(showgrid=False, **axis_style()),
-            height=280, margin=dict(l=10, r=70, t=10, b=10),
+            height=280, margin=dict(l=8, r=70, t=10, b=10),
             showlegend=False
         )
         st.plotly_chart(fig3, use_container_width=True, config={'displayModeBar': False})
