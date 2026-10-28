@@ -165,7 +165,7 @@ def show_page():
         ))
         fig3.update_layout(
             plot_bgcolor=WHITE, paper_bgcolor=WHITE,
-            font=dict(family='Inter', color=TEXT_AXIS, size=12),
+            font=dict(family='Inter', color=TEXT_AXIS, size=8),
             xaxis=dict(showgrid=False, showticklabels=False),
             yaxis=dict(showgrid=False, **axis_style()),
             height=280, margin=dict(l=8, r=70, t=10, b=10),
