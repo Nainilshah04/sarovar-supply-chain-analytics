@@ -157,10 +157,10 @@ def show_page():
         fig3 = go.Figure(go.Bar(
             x=top5['Revenue'], y=top5['Product_Name'], orientation='h',
             marker=dict(color=[STEEL, INDIGO, SLATE, ORANGE, AMBER][:len(top5)],
-                        cornerradius=4),
+                        cornerradius=3),
             text=[f'₹{v/100000:.1f}L' for v in top5['Revenue']],
             textposition='outside',
-            textfont=dict(color=TEXT_DARK, size=8, family='Inter'),
+            textfont=dict(color=TEXT_DARK, size=6, family='Inter'),
             hovertemplate='<b>%{y}</b><br>₹%{x:,.0f}<extra></extra>'
         ))
         fig3.update_layout(
